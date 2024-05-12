@@ -1,2 +1,2 @@
 # python_hackerrank_solutions
-my python codes in HackerRank
+my python resolutions for challenges in HackerRank
