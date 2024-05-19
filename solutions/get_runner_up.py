@@ -22,9 +22,11 @@ def test(scores):
     for i in scores:
         if i > highest:
             highest = i
+            print("highest", i)
         
         elif i > runner_up:
             runner_up = i
+            print("runner_up", i)
 
     return runner_up
 
