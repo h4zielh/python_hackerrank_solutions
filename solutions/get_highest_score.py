@@ -8,11 +8,17 @@ def get_highest_score(num: int, scores: list) -> int:
     # the highest number in scores
     num = scores[0]
 
+    # the runner-up, second highest number in scores
+    runner_up = scores[1]
+
     for i in scores:
         if i > num:
             num = i
 
-    return num
+        elif i > runner_up:
+            runner_up = i
+
+    return runner_up
 
 
 if __name__ == "__main__":
