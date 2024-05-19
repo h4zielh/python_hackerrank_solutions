@@ -19,10 +19,13 @@ def test(scores):
     highest = int()
     runner_up = int()
 
+    print(scores)
+
     for i in scores:
         if i > highest:
             runner_up = highest
             highest = i
+            print(runner_up, highest)
 
     return runner_up
 
