@@ -14,4 +14,4 @@ if __name__ == "__main__":
     n = int(input())
     arr = map(int, input().split())
 
-    print(get_highest_score(n, list(arr)))
+    print(get_runner_up(n, list(arr)))
