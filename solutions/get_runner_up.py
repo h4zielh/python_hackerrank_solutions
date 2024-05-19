@@ -12,9 +12,7 @@ def get_runner_up(scores: list) -> int:
 
     # list copy
     score_copy = list(set(scores.copy()))
-    
     score_copy.sort()
-
     return score_copy[-2]
 
 def test(scores):
@@ -23,10 +21,12 @@ def test(scores):
 
     for i in scores:
         if i > highest:
-            runner_up = highest
+            if highest > runner_up:
+                runner_up = highest
+                
             highest = i
 
-        elif i > runner_up:
+        elif i > runner_up and i != highest:
             runner_up = i
 
     return runner_up
