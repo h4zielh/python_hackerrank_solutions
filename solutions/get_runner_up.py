@@ -1,5 +1,8 @@
 """
 return the runner-up from list, pretty simple.
+
+this solution may be unoptimized because the funtion,
+creates a copy
 """
 
 def get_runner_up(num: int, scores: list) -> int:
