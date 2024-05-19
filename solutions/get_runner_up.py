@@ -23,7 +23,7 @@ def test(scores):
         if i > highest:
             highest = i
         
-        elif i > runner_up and i != runner_up:
+        elif i > runner_up:
             runner_up = i
 
     return runner_up
@@ -32,4 +32,4 @@ if __name__ == "__main__":
     n = int(input())
     arr = map(int, input().split())
 
-    print(test(n, arr))
+    print(test(arr))
