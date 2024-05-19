@@ -15,7 +15,7 @@ def get_highest_score(num: int, scores: list) -> int:
     return num
 
 
-if __name__ == "name":
+if __name__ == "__main__":
     n = int(input())
     arr = map(int, input().split())
 
