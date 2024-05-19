@@ -29,6 +29,9 @@ def test(scores):
             highest = i
             print(runner_up, highest)
 
+        elif i > runner_up:
+            runner_up = i
+
     return runner_up
 
 if __name__ == "__main__":
