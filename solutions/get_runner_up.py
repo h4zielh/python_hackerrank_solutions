@@ -1,15 +1,17 @@
 """
-return the highest score from list, pretty simple
+return the runner-up fromlist pretty simple.
 """
 
-def get_highest_score(num: int, scores: list) -> int:
+def get_runner_up(num: int, scores: list) -> int:
     """return the highest score from list."""
+
+    
 
     # the highest number in scores
     num = scores[0]
 
     # the runner-up, second highest number in scores
-    runner_up = scores[1]
+    runner_up = scores[0]
 
     for i in scores:
         if i > num:
