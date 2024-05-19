@@ -4,8 +4,8 @@ return the runner-up from list, pretty simple.
 i had to use the math library because if i declared both highest and runner_up
 as int() it would not work if the list contained a negative number, the function
 goes through each element of the list, if the element is not the highest, compare if
-its not equal to the current highest and is higher then the current runner-up, if true
-just add the number as the new runner-up
+its not equal to the current highest and if it's higher then the current runner-up,
+if true just add the number as the new runner-up
 """
 
 import math
