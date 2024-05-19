@@ -1,9 +1,9 @@
 """
-return the runner-up fromlist pretty simple.
+return the runner-up from list, pretty simple.
 """
 
 def get_runner_up(num: int, scores: list) -> int:
-    """return the highest score from list."""
+    """return the runner-up from list."""
 
     
 
