@@ -5,7 +5,7 @@ this solution may be unoptimized because the funtion,
 creates a copy
 """
 
-def get_runner_up(num: int, scores: list) -> int:
+def get_runner_up(scores: list) -> int:
     """return the runner-up from list."""
 
     # list copy
@@ -15,7 +15,7 @@ def get_runner_up(num: int, scores: list) -> int:
 
     return score_copy[-2]
 
-def test(num, scores):
+def test(scores):
     highest = int()
     runner_up = int()
 
