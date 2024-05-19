@@ -19,4 +19,4 @@ if __name__ == "name":
     n = int(input())
     arr = map(int, input().split())
 
-    print(get_highest_score(n, list(arr))
+    print(get_highest_score(n, list(arr)))
