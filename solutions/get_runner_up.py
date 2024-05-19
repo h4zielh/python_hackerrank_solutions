@@ -7,14 +7,6 @@ creates a copy
 
 import math
 
-def get_runner_up(scores: list) -> int:
-    """return the runner-up from list."""
-
-    # list copy
-    score_copy = list(set(scores.copy()))
-    score_copy.sort()
-    return score_copy[-2]
-
 def test(scores):
     highest = -math.inf
     runner_up = -math.inf
