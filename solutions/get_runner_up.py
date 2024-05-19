@@ -5,6 +5,8 @@ this solution may be unoptimized because the funtion,
 creates a copy
 """
 
+import math
+
 def get_runner_up(scores: list) -> int:
     """return the runner-up from list."""
 
@@ -16,8 +18,8 @@ def get_runner_up(scores: list) -> int:
     return score_copy[-2]
 
 def test(scores):
-    highest = -int()
-    runner_up = -int()
+    highest = -math.inf
+    runner_up = -math.inf
 
     print(scores)
 
