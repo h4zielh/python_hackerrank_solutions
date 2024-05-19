@@ -1,3 +1,3 @@
 """
-return the highest score from the list returned
+return the highest score from list
 """
