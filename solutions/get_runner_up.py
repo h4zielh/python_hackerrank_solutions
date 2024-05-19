@@ -9,13 +9,11 @@ def get_runner_up(num: int, scores: list) -> int:
     """return the runner-up from list."""
 
     # list copy
-    score_copy = set(scores.copy())
+    score_copy = list(set(scores.copy()))
     
-    score_list = list(score_copy)
-    
-    score_list.sort()
+    score_copy.sort()
 
-    return score_list[-2]
+    return score_copy[-2]
 
 def test(num, scores):
     highest = int()
