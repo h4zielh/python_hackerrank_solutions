@@ -7,7 +7,7 @@ creates a copy
 
 import math
 
-def test(scores):
+def get_runner_up(scores):
     highest = -math.inf
     runner_up = -math.inf
 
@@ -27,4 +27,4 @@ if __name__ == "__main__":
     n = int(input())
     arr = map(int, input().split())
 
-    print(test(list(arr)))
+    print(get_runner_up(list(arr)))
