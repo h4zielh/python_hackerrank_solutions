@@ -16,8 +16,8 @@ def get_runner_up(scores: list) -> int:
     return score_copy[-2]
 
 def test(scores):
-    highest = int()
-    runner_up = int()
+    highest = -int()
+    runner_up = -int()
 
     print(scores)
 
