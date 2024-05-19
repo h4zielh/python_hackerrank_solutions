@@ -21,8 +21,6 @@ def test(scores):
     highest = -math.inf
     runner_up = -math.inf
 
-    print(scores)
-
     for i in scores:
         if i > highest:
             runner_up = highest
