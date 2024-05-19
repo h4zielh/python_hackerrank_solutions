@@ -17,8 +17,21 @@ def get_runner_up(num: int, scores: list) -> int:
 
     return score_list[-2]
 
+def test(num, scores):
+    highest = int()
+    runner_up = int()
+
+    for i in scores:
+        if i > highest:
+            highest = i
+        
+        elif i > runner_up and i != runner_up:
+            runner_up = i
+
+    return runner_up
+
 if __name__ == "__main__":
     n = int(input())
     arr = map(int, input().split())
 
-    print(get_runner_up(n, list(arr)))
+    print(test(n, list(arr)))
