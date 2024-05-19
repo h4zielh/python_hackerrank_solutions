@@ -7,8 +7,12 @@ def get_runner_up(num: int, scores: list) -> int:
 
     # list copy
     score_copy = set(scores.copy())
+    
+    score_list = list(score_copy)
+    
+    score_list.sort()
 
-    return list(score_copy).sort()[-2]
+    return score_list[-2]
 
 if __name__ == "__main__":
     n = int(input())
