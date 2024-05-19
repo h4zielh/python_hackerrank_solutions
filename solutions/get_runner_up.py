@@ -24,7 +24,7 @@ def test(scores):
             highest = i
             print("highest", i)
         
-        elif i > runner_up:
+        if i > runner_up and i != highest:
             runner_up = i
             print("runner_up", i)
 
